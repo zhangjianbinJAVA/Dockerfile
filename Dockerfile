@@ -37,7 +37,7 @@ RUN gpg --keyserver pool.sks-keyservers.net --recv-keys \
 	F7DA48BB64BCB84ECBA7EE6935CD23C10D498E23
 
 # 设置 Tomcat 版本变量，构建时可以传入相应参数更改 Tomcat 版本
-ENV TOMCAT_VERSION 8.0.29
+ENV TOMCAT_VERSION 8.0.52
 
 # tomcat 下载地址 例如：https://www.apache.org/dist/tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-fulldocs.tar.gz
 ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-8/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
